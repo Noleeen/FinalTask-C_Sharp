@@ -39,5 +39,3 @@ Console.WriteLine();
 ShowArray(MyArray);
 Console.WriteLine();
 ShowArray(FinalArray(MyArray));
-
-// вроде бы готово
