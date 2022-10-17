@@ -27,11 +27,13 @@ void ShowArray(string[] array)
 string[] FinalArray(string[] array)
 {
     string[] newArray = new string[array.Length];
+    int j = 0;
     for(int i = 0; i < size; i++)
     {
         if(array[i].Length < 4)
         {
-            newArray[i] = array[i];
+            newArray[j] = array[i];
+            j++;
         }
     }
     return newArray;
